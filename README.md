@@ -6,4 +6,4 @@ This project is an attempt to replicate the world's first computer vision system
 [[Link to Demo]](https://youtu.be/VscNUvCFYMw "Click to watch")
 
 # Overview of the pipeline
-![Alt text](InScene_Full_Workflow_Github.png)
+![Alt text](zipcode_reader.png)
