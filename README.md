@@ -42,7 +42,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙌 Acknowledgements
 
 * [LeNet-5](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) - The LeNet-5 **Research Paper**.
-* [Special Thanks](https://github.com/mdzahirdu/face-detection-mtcnn-cropping-pipeline) - Another repo that contains a clean implementation of **Binary Inverse Thresholding, Contour detection & LeNet-5 based digit recognition.**
+* [Special Thanks](https://github.com/ehsanmqn/handwritten-digit-recognition) - Another repo that contains a clean implementation of **Binary Inverse Thresholding, Contour detection & LeNet-5 based digit recognition.**
 ---
 
 ### ⭐ If you find this project helpful, don’t forget to star the repo
