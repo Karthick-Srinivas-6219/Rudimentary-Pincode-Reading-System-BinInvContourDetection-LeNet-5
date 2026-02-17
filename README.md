@@ -25,7 +25,7 @@ This project is an attempt to replicate the world's first computer vision system
        ├── card3.png
        ├── card4.png
 ├── models/                   # Trained LeNet-5 weights
-       ├── LeNet5_weights.png
+       ├── LeNet5_wts.pth
 ├── requirements.txt      # Python dependencies.
 ├── CharLevel_Seg_Inference.ipynb     # Code that implements the entire pipeline: i/p --> Thresholding --> Contour detection & Clipping --> Recognition.
 ├── LeNet5_Train.ipynb  # Code that trains LeNet-5 on the MNIST Handwritten digit dataset.
