@@ -33,3 +33,16 @@ This project is an attempt to replicate the world's first computer vision system
 ├── model.py   # Implements LeNet-5 in PyTorch.
 
 ```
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+* [LeNet-5](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf) - The LeNet-5 **Research Paper**.
+* [Special Thanks](https://github.com/mdzahirdu/face-detection-mtcnn-cropping-pipeline) - Another repo that contains a clean implementation of **Binary Inverse Thresholding, Contour detection & LeNet-5 based digit recognition.**
+---
+
+### ⭐ If you find this project helpful, don’t forget to star the repo
