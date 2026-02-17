@@ -19,19 +19,17 @@ This project is an attempt to replicate the world's first computer vision system
 
 ```bash
 .
-├── bbt_gallery/              # Registered gallery of actors from the show - "The Big Bang Theory".
-├── bbt_test_images/          # Some test scenes from the show - "The Big Bang Theory" to be supplied for inference.
-├── office_gallery/           # Registered gallery of actors from the show - "The Office".
-├── office_test_images/       # Some test scenes from the show - "The Office" to be supplied for inference.
-├── models/                   # Models which are used in the extraction of face embeddings
-       ├── dlib_face_recognition_resnet_model_v1.dat
-       ├── mmod_human_face_detector.dat
+├── cards/                   # Handwritten zipcode images for testing
+       ├── card1.png
+       ├── card2.png
+       ├── card3.png
+       ├── card4.png
+├── models/                   # Trained LeNet-5 weights
+       ├── LeNet5_weights.png
 ├── requirements.txt      # Python dependencies.
-├── get_gallery_embeddings.ipynb     # To generate embeddings for the pre-registered gallery of actors.
-├── crop_recog_persistant_inf.ipynb  # Runs the entire inference pipeline i.e. supply test image --> faces get detected and cropped --> Embeddings get generated and matched with the cached gallery embeddings.
+├── CharLevel_Seg_Inference.ipynb     # Code that implements the entire pipeline: i/p --> Thresholding --> Contour detection & Clipping --> Recognition.
+├── LeNet5_Train.ipynb  # Code that trains LeNet-5 on the MNIST Handwritten digit dataset.
 ├── demo.py            # A Streamlit demo of the entire project.
-├── my_dlib_funcs.py   # Some utility functions for embeddings generation and caching.
-├── gallery_embeddings.pkl   # Embedding cache represented as a pickle file.
-├── requirements.txt   # Project dependencies
-├── dlib-19.24.99-cp313-cp313-win_amd64.whl  # dlib wheel for python3.13
+├── model.py   # Implements LeNet-5 in PyTorch.
+
 ```
